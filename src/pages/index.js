@@ -10,8 +10,16 @@ import RhinoImage from "../images/rhino.png"
 
 const IndexPage = () => (
   <Layout>
+    {/* <nav style={{position: 'fixed', marginLeft: '-100px '}}>
+      <ul>
+        <li><Link to="/bioinformatics">Bioinformatics</Link></li>
+        <li><Link to="/deep-learning">Deep Learning</Link></li>
+        <li><Link to="/data-science">Data Science</Link></li>
+        <li><Link to="/about">About</Link></li>
+      </ul>
+    </nav> */}
     <article>
-      <h1>Bioinformatics</h1>
+      <h1>Notes on Bioinformatics</h1>
       <p class="subtitle">Dan Butler</p>
       <section>
         <h2 id="getting-started">Getting Started</h2>

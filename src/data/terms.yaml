@@ -1,0 +1,24 @@
+- term: eQTL
+  definition: Expression Quantitative Trait Loci, a genetic variant that is associated with the expression of one or more genes.
+- term: Salmon
+  definition: A tool for quantifying the expression of transcripts using RNA-seq data.
+- term: SNV
+  definition: Single Nucleotide Variant, a single base pair substitution.
+- term: TSS
+  definition: Transcription Start Site, the position where transcription starts.
+- term: Ortholog
+  definition: A gene in one species that is evolutionarily related to a gene in another species.
+- term: Paralog
+  definition: A gene that is related to another gene in the same species by duplication and divergence.
+- term: Orthogroup
+  definition: A group of orthologous genes.
+- term: DIAMOND
+  definition: A tool for aligning protein sequences.
+- term: OrthoFinder
+  definition: A tool for inferring orthogroups.
+- term: BLAST
+  definition: A tool for aligning nucleotide or protein sequences.
+- term: Gene tree
+  definition: A phylogenetic tree of genes.
+- term: Ortholog database
+  definition: A database of orthologous genes. For example, PhylomeDB, OrthoDB, EggNOG, TreeFam, and Ensembl Compara.
