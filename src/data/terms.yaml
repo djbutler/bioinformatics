@@ -22,3 +22,7 @@
   definition: A phylogenetic tree of genes.
 - term: Ortholog database
   definition: A database of orthologous genes. For example, PhylomeDB, OrthoDB, EggNOG, TreeFam, and Ensembl Compara.
+- term: Haplotype
+  definition: A set of alleles at multiple loci that are transmitted together on the same chromosome.
+- term: Haplotype block
+  definition: A region of the genome where there is little recombination, so that haplotypes are preserved.
