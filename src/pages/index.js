@@ -5,116 +5,73 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+import ImportExportImage from "../images/exports-imports.png"
+import RhinoImage from "../images/rhino.png"
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
-    </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
+    <article>
+      <h1>Bioinformatics</h1>
+      <p class="subtitle">Dan Butler</p>
+      <section>
+        <h2 id="getting-started">Getting Started</h2>
+        <p><span class="newthought">To use Tufte CSS</span>, copy <code>tufte.css</code> and the <code>et-book</code> directory of font files to your project directory, then add the following to your HTML document’s <code>head</code> block:</p>
+        <pre><code>&lt;link rel="stylesheet" href="tufte.css"/&gt;</code></pre>
+        <p>Now you just have to use the provided CSS rules,
+          and the Tufte CSS conventions described in this document.
+          For best results, View Source and Inspect Element frequently
+          <label for="sn-in-his-later-books" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="sn-in-his-later-books" class="margin-toggle" />
+          <span class="sidenote">
+            <a href="http://www.edwardtufte.com/tufte/books_be">
+              <em>Beautiful Evidence</em>
+            </a>
+          </span>.</p>
+      </section>
+      <section>
+        <h2>Formatting</h2>
+        <p>
+          This is the section where I will talk about formatting.
+          Indeed, I will talk about formatting in this section.
+          I will talk about formatting in this section, indeed.
+          I will talk about formatting in this section, indeed.
+          I will talk about formatting in this section, indeed.&nbsp; 
+          <span class="marginnote">
+            Blue text, while also a widely recognizable clickable-text indicator,
+            is crass and distracting. Luckily, it is also rendered unnecessary by
+            the use of underlining.</span>
+          I will talk about formatting in this section, indeed. I will talk about formatting in this section, indeed.
+        </p>
+        <p>
+          This is the section where I will talk about rhinoceri. Indeed, I will talk about rhinoceri in this section.
+          I will talk about rhinoceri in this section, indeed. I will talk about rhinoceri in this section, indeed.
+          I will talk about rhinoceri in this section, indeed. I will talk about rhinoceri in this section, indeed.
+        </p>
+        <figure>
+          <label for="mn-exports-imports" class="margin-toggle">⊕</label>
+          <input type="checkbox" id="mn-exports-imports" class="margin-toggle" />
+          <span class="marginnote">From Edward Tufte, <em>Visual Display of Quantitative Information</em>, page 92.</span>
+          <img src={ImportExportImage} alt="Exports and Imports to and from Denmark &amp; Norway from 1700 to 1780" />
+        </figure>
+        <p>
+          <label for="mn-figure-1" class="margin-toggle">⊕</label>
+          <input type="checkbox" id="mn-figure-1" class="margin-toggle" />
+          <span class="marginnote" >
+            <img src={RhinoImage} alt="Image of a Rhinoceros" />
+            F.J. Cole, “The History of Albrecht Dürer's Rhinoceros in Zooological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte's <em>Visual Explanations</em>.
+          </span>
+          But tight integration of graphics with text is central to Tufte's work even when those graphics are ancillary to the main body of a text.
+          In many of those cases, a margin figure may be most appropriate. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a <code>p</code> tag, as seen to the right of this paragraph.
+        </p>
+        <p>
+          The final section is just for filler. I will discussion deep learning. Indeed, I will talk about deep learning in this section.
+          I will talk about deep learning in this section, indeed. I will talk about deep learning in this section, indeed.
+          I will talk about deep learning in this section, indeed. I will talk about deep learning in this section, indeed.
+          But no, I must not. I must talk about formatting in this section. I must talk about formatting in this section, indeed.
+          I must talk about formatting in this section, indeed. I must talk about formatting in this section, indeed.
+        </p>
+      </section>
+    </article>
   </Layout>
 )
 
@@ -123,6 +80,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Bioinformatics" />
 
 export default IndexPage
