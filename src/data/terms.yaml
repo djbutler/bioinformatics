@@ -54,3 +54,7 @@
   definition: The part of the genome that is rich in repetitive sequences.
 - term: Interlocus gene conversion
   definition: The process by which a sequence is copied from one locus to another.
+- term: CDS
+  definition: Coding Sequence, the part of a gene that is translated into a protein.
+- term: Homologous chromosomes
+  definition: A pair of chromosomes that contain the same genes.
