@@ -26,3 +26,31 @@
   definition: A set of alleles at multiple loci that are transmitted together on the same chromosome.
 - term: Haplotype block
   definition: A region of the genome where there is little recombination, so that haplotypes are preserved.
+- term: Haplotype phasing
+  definition: The process of determining which alleles at multiple loci are on the same chromosome.
+- term: Acrocentric region
+  definition: A region of the genome where the centromere is near one end of the chromosome.
+- term : CNV
+  definition: Copy Number Variant, a region of the genome that is duplicated or deleted.
+- term: Contig N50
+  definition: The length of the contig such that half of the genome is contained in contigs of this length or longer.
+- term: Synteny
+  definition: The conservation of gene order between two genomes.
+- term: Satellite
+  definition: A highly repetitive region of the genome.
+- term: Alpha satellite
+  definition: A highly repetitive region of the genome that is found near the centromere.
+- term: Human satellite
+  definition: A highly repetitive region of the genome that is found near the centromere of human chromosome 1.
+- term: PGGB
+  definition: A tool for generating pseudogenomes.
+- term: Pseudogenome
+  definition: A genome that contains the sequences of multiple haplotypes.
+- term: MC graphs
+  definition: A graph that represents the sequences of multiple haplotypes.
+- term: Euchromatin
+  definition: The part of the genome that is rich in genes.
+- term: Heterochromatin
+  definition: The part of the genome that is rich in repetitive sequences.
+- term: Interlocus gene conversion
+  definition: The process by which a sequence is copied from one locus to another.
