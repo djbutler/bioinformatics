@@ -1,16 +1,18 @@
+- term: QTL
+  definition: Quantitative Trait Loci, a region of DNA (the locus) that correlates with variation in a quantitatively inherited trait in the individuals of a population.
 - term: eQTL
-  definition: Expression Quantitative Trait Loci, a genetic variant that is associated with the expression of one or more genes.
+  definition: Expression Quantitative Trait Loci, a region of the genome that explains variance in the expression levels of genes.
 - term: Salmon
   definition: A tool for quantifying the expression of transcripts using RNA-seq data.
 - term: SNV
   definition: Single Nucleotide Variant, a single base pair substitution.
 - term: TSS
   definition: Transcription Start Site, the position where transcription starts.
-- term: Ortholog
+- term: ortholog
   definition: A gene in one species that is evolutionarily related to a gene in another species.
-- term: Paralog
+- term: paralog
   definition: A gene that is related to another gene in the same species by duplication and divergence.
-- term: Orthogroup
+- term: orthogroup
   definition: A group of orthologous genes.
 - term: DIAMOND
   definition: A tool for aligning protein sequences.
@@ -18,43 +20,55 @@
   definition: A tool for inferring orthogroups.
 - term: BLAST
   definition: A tool for aligning nucleotide or protein sequences.
-- term: Gene tree
+- term: gene tree
   definition: A phylogenetic tree of genes.
-- term: Ortholog database
+- term: ortholog database
   definition: A database of orthologous genes. For example, PhylomeDB, OrthoDB, EggNOG, TreeFam, and Ensembl Compara.
-- term: Haplotype
+- term: haplotype
   definition: A set of alleles at multiple loci that are transmitted together on the same chromosome.
-- term: Haplotype block
+- term: haplotype block
   definition: A region of the genome where there is little recombination, so that haplotypes are preserved.
-- term: Haplotype phasing
+- term: haplotype phasing
   definition: The process of determining which alleles at multiple loci are on the same chromosome.
-- term: Acrocentric region
+- term: acrocentric region
   definition: A region of the genome where the centromere is near one end of the chromosome.
 - term : CNV
   definition: Copy Number Variant, a region of the genome that is duplicated or deleted.
 - term: Contig N50
-  definition: The length of the contig such that half of the genome is contained in contigs of this length or longer.
-- term: Synteny
+  definition: The length of the contig such that half of the bases in the genome are contained in contigs of this length or longer.
+- term: synteny
   definition: The conservation of gene order between two genomes.
-- term: Satellite
+- term: satellite
   definition: A highly repetitive region of the genome.
-- term: Alpha satellite
+- term: alpha satellite
   definition: A highly repetitive region of the genome that is found near the centromere.
-- term: Human satellite
+- term: human satellite
   definition: A highly repetitive region of the genome that is found near the centromere of human chromosome 1.
 - term: PGGB
   definition: A tool for generating pseudogenomes.
-- term: Pseudogenome
+- term: pseudogenome
   definition: A genome that contains the sequences of multiple haplotypes.
 - term: MC graphs
   definition: A graph that represents the sequences of multiple haplotypes.
-- term: Euchromatin
+- term: euchromatin
   definition: The part of the genome that is rich in genes.
-- term: Heterochromatin
+- term: heterochromatin
   definition: The part of the genome that is rich in repetitive sequences.
 - term: Interlocus gene conversion
   definition: The process by which a sequence is copied from one locus to another.
 - term: CDS
   definition: Coding Sequence, the part of a gene that is translated into a protein.
-- term: Homologous chromosomes
+- term: homologous chromosomes
   definition: A pair of chromosomes that contain the same genes.
+- term: scaffold N50
+  definition: The length of the scaffold such that half of the genome is contained in scaffolds of this length or longer.
+- term: scaffold
+  definition: An ordered and oriented set of contigs that are connected by gaps of unknown nucleotide sequences.
+- term: Minimap2
+  definition: A tool for aligning long reads to a reference genome.
+- term: contig
+  definition: A contiguous sequence of nucleotides.
+- term: Integrative Genomics Viewer
+  definition: A tool for visualizing genomic data (https://igv.org/).
+- term: accession
+  definition: A unique identifier for a sequence in a database.
